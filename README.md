@@ -1,49 +1,39 @@
-# 🍳 Cook With What You Have
+# Cook With What You Have
 
-**Cook With What You Have** is a smart recipe generator web app that helps you turn the ingredients in your kitchen into delicious meals. Powered by the Gemini API, the app not only generates step-by-step recipes, but also provides detailed macro and micronutrient breakdowns — all while letting you check off each step and use built-in timers for a seamless cooking experience.
+AI recipe generator that turns available ingredients into recipes with steps, timers, and nutrition details.
 
----
+## Key Features
+- AI recipe generator that turns available ingredients into recipes with steps, timers, and nutrition details
+- AI/service layer is separated into dedicated source files so prompts, model calls, and UI actions are easier to inspect.
+- Firebase or Genkit files are documented where the repository uses them for app services or AI workflows.
+- Organized UI components and screens make the main user flows visible from the project structure.
+- Package scripts provide reproducible development, build, and preview commands.
 
-## 🌟 Features
+## Tech Stack
+- JavaScript/TypeScript
+- Next.js
+- React
+- Tailwind CSS
+- Firebase
 
-- 🥦 **Ingredient-Based Recipe Generation**  
-  Enter the ingredients you have — get a full recipe instantly using the Gemini API.
+## Project Structure
+- src/app or app - application routes, screens, and layout files.
+- components - reusable UI and workflow components.
+- src/ai - AI flows, model setup, or prompt orchestration.
 
-- 📋 **Step-by-Step Instructions**  
-  Clear instructions with checkboxes to mark your progress.
-
-- ⏲️ **Timers for Each Step**  
-  Integrated timers so you never overcook or miss a step.
-
-- 🍽️ **Macro & Micronutrient Breakdown**  
-  See detailed nutritional info for the full recipe.
-
----
-
-## 🚀 How It Works
-
-1. Enter a list of available ingredients.
-2. The app uses the **Gemini API** to generate a suitable recipe.
-3. It displays the recipe with:
-   - Step checkboxes
-   - Timers for each cooking step
-   - Nutritional data (macros and micros)
-
----
-
-## 🛠 Tech Stack
-
-- **Frontend**: HTML, CSS, JavaScript (React)
-- **Backend**: Gemini API (for recipe generation and nutritional analysis)
-- **Other Tools**: Timer functions, local state management
-
----
-
-
-## 🔧 Installation
-
+## Setup and Run
 ```bash
-git clone https://github.com/yourusername/cook-with-what-you-have.git
+git clone https://github.com/theadhithyankr/cook-with-what-you-have.git
 cd cook-with-what-you-have
 npm install
-npm start
+npm run dev
+npm run build
+```
+
+## What This Project Demonstrates
+- Building user-facing web applications with component-based UI and modern frontend tooling.
+- Integrating managed backend services for auth, persistence, realtime data, or app infrastructure.
+- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
+
+## Repository
+- GitHub: https://github.com/theadhithyankr/cook-with-what-you-have
