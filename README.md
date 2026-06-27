@@ -14,7 +14,7 @@ Recipe helper that works from ingredients already available to the user.
 
 Cook With What You Have is a recipe assistance project in the TheAdhithyanKR/cook-with-what-you-have repository. AI recipe generator that turns available ingredients into recipes with steps, timers, and nutrition details.
 
-The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(@{Path=package.json; Json=}.Path), and the commands below are taken from its scripts.
 
 ## Key Features
 
@@ -32,7 +32,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- .idx/dev.nix
 |-- .modified
@@ -45,14 +45,14 @@ The README was written from the repository contents, including its manifest file
 |-- README.md
 |-- tailwind.config.ts
 |-- tsconfig.json
-`
+```
 
 ## Setup
 
-`ash
+```bash
 npm install
 npm run dev
-`
+```
 
 ## What This Project Demonstrates
 
