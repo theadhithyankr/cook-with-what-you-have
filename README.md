@@ -1,39 +1,67 @@
+<div align="center">
+
 # Cook With What You Have
 
-AI recipe generator that turns available ingredients into recipes with steps, timers, and nutrition details.
+Recipe helper that works from ingredients already available to the user.
+
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=nextdotjs) ![React](https://img.shields.io/badge/React-20232A?logo=react) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+
+[Repository](https://github.com/theadhithyankr/cook-with-what-you-have)
+
+</div>
+
+## Overview
+
+Cook With What You Have is a recipe assistance project in the TheAdhithyanKR/cook-with-what-you-have repository. AI recipe generator that turns available ingredients into recipes with steps, timers, and nutrition details.
+
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
 
 ## Key Features
-- AI recipe generator that turns available ingredients into recipes with steps, timers, and nutrition details
-- AI/service layer is separated into dedicated source files so prompts, model calls, and UI actions are easier to inspect.
-- Firebase or Genkit files are documented where the repository uses them for app services or AI workflows.
-- Organized UI components and screens make the main user flows visible from the project structure.
-- Package scripts provide reproducible development, build, and preview commands.
+
+- Ingredient-first recipe discovery flow
+- Practical cooking suggestions based on user input
+- AI-friendly structure for turning pantry items into meal ideas
+- Project shape suited for experimenting with prompt-driven UX
 
 ## Tech Stack
-- JavaScript/TypeScript
+
 - Next.js
 - React
 - Tailwind CSS
 - Firebase
 
 ## Project Structure
-- src/app or app - application routes, screens, and layout files.
-- components - reusable UI and workflow components.
-- src/ai - AI flows, model setup, or prompt orchestration.
 
-## Setup and Run
-```bash
-git clone https://github.com/theadhithyankr/cook-with-what-you-have.git
-cd cook-with-what-you-have
+`	ext
+.
+|-- .idx/dev.nix
+|-- .modified
+|-- components.json
+|-- docs/blueprint.md
+|-- next.config.ts
+|-- package.json
+|-- package-lock.json
+|-- postcss.config.mjs
+|-- README.md
+|-- tailwind.config.ts
+|-- tsconfig.json
+`
+
+## Setup
+
+`ash
 npm install
 npm run dev
-npm run build
-```
+`
 
 ## What This Project Demonstrates
-- Building user-facing web applications with component-based UI and modern frontend tooling.
-- Integrating managed backend services for auth, persistence, realtime data, or app infrastructure.
-- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-## Repository
-- GitHub: https://github.com/theadhithyankr/cook-with-what-you-have
+- Ability to turn a focused product idea into a working codebase
+- Practical use of the repository's chosen framework and tooling
+- Attention to deployable structure, repeatable setup, and portfolio-ready presentation
+- Project-specific implementation around recipe assistance
+
+## Links
+
+- Repository: [https://github.com/theadhithyankr/cook-with-what-you-have](https://github.com/theadhithyankr/cook-with-what-you-have)
+- Live demo: [https://cookwithwhatyouhave-dhf3llguf-adhithyans-projects-81268a7f.vercel.app/](https://cookwithwhatyouhave-dhf3llguf-adhithyans-projects-81268a7f.vercel.app/)
